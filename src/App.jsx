@@ -112,7 +112,7 @@ function App() {
       
       </div>
       {selectedCity && <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
-      <h1 >You Selected <span style={{fontSize: "3rem"}}> {selectedCity}, </span>  <span style={{color: "#b9b9b9"}}> {selectedState}, {selectedCountry}</span></h1> 
+      <h1 >You selected <span style={{fontSize: "3rem"}}> {selectedCity}, </span>  <span style={{color: "#b9b9b9"}}> {selectedState}, {selectedCountry}</span></h1> 
       </div>}
     </center>
   )
